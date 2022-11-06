@@ -1,0 +1,37 @@
+.container {
+display: grid;
+grid-template-columns: 100px 100px 100px 100px;
+grid-template-rows: 100px 100px 100px 100px;
+grid-gap: 10px;
+}
+.container-button {
+font-size: 80px;
+background-color: darkgray;
+border-radius: 15px;
+}
+.container-button:hover {
+background-color: gray;
+}
+
+#numberbar {
+border: black solid;
+background: lightblue;
+font-size: 80px;
+width: 420px;
+text-align: right;
+border-radius: 15px;
+}
+
+body {
+    background: black;
+    max-width: max-content;
+    margin: auto;
+}
+
+#calculator {
+background: rgb(3, 5, 160);
+border: black solid;
+padding: 15px 15px;
+border-radius: 15px;
+}
+
