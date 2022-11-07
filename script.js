@@ -133,7 +133,7 @@ function numsub() {
 function nummult() {
   operator = "x";
   firstnumber = document.querySelector("#numberbar").innerHTML;
-  firstnumber = parseFlaot(firstnumber);
+  firstnumber = parseFloat(firstnumber);
   numberbar.innerText = 0;
 }
 function numdiv() {
